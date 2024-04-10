@@ -436,9 +436,7 @@ font-weight: 700;
     z-index: 2;
 }
 
-.carouselMargin{
-    margin-right: 50px;
-}
+
 
 footer{ 
     /* background-color: #f3f3f3; */
@@ -588,7 +586,11 @@ footer{
     margin-right: 11px;
     margin-left: 0px;
     }
-
+    
+    .carouselMargin{
+        /* margin-right: 50px; */
+        margin-left: 10px;
+    }
     
 }
 
@@ -615,9 +617,10 @@ footer{
         margin-left: 27px;
     }
     .headLines{
-        margin-left: 27px;
+        margin-left: 32px;
     }
     .signBackGroundColor{
+     
         width: 107vw;
         /* margin-right: 40px; */
         padding: 0px !important;
@@ -637,7 +640,7 @@ footer{
     }
     .changedivDirection{
         flex-direction: row;
-        margin-left: 23px;
+        margin-left: 28px;
     }
   }
 
