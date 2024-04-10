@@ -450,7 +450,16 @@ footer{
 
 @media screen and (min-width:305px) and (max-width:430px){
     .navbarColor span{
-        font-size:10px ;
+        font-size:13px ;
+    }
+    .enrollCourse{
+        padding: 15px 100px !important; 
+        margin-right: 15px;
+        margin-left: 25px;
+    }
+
+    .navbarEnroll{
+        padding: 8px;
     }
 }
 
@@ -464,7 +473,8 @@ footer{
     }
     .enrollCourse{
         padding: 0px;
-        margin-left: 10px;
+        margin-left: 27px;
+        padding: 10px 120px !important;
     } 
     .enrollCourse2{
             background-color: #D05B49;
@@ -472,6 +482,9 @@ footer{
             padding: 10px 65px;
             border-radius: 5px;
         
+    }
+    .mobileView{
+        width: 340px;
     }
     
     
@@ -586,7 +599,7 @@ footer{
     margin-right: 11px;
     margin-left: 0px;
     }
-    
+
     .carouselMargin{
         /* margin-right: 50px; */
         margin-left: 10px;
