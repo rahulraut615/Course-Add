@@ -431,6 +431,17 @@ font-weight: 700;
     z-index: 2;
 }
 
+@media screen and (min-width:305px) and (max-width:380px) {
+    .sectionBackground{
+        margin-left: 18px;
+    }
+
+    .reviewCards{
+        width: 92% !important;
+    }
+    
+}
+
 @media only screen and (max-width: 768px) {
     .communityCards h3 , p{
         text-align: center;
