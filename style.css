@@ -233,6 +233,7 @@ ul li i{
     height: 100%; /* or any specific height */
     position: relative; /* ensure position context */
     overflow: hidden; /* prevent video overflow */
+    margin-left: 10px;
 }
 .fromVideo video{
     width: 100%; /* ensure video fills parent width */
@@ -435,6 +436,10 @@ font-weight: 700;
     z-index: 2;
 }
 
+.carouselMargin{
+    margin-right: 50px;
+}
+
 footer{ 
     /* background-color: #f3f3f3; */
     margin-left: 14px;
@@ -620,7 +625,7 @@ footer{
     .priceCardParrent{
         display: flex;
         justify-content: center;
-        margin-left: 15px;
+        margin-left: 18px;
     }
 
     .priceCard{
@@ -632,6 +637,7 @@ footer{
     }
     .changedivDirection{
         flex-direction: row;
+        margin-left: 23px;
     }
   }
 
