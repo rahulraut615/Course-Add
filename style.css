@@ -112,6 +112,7 @@ body{
 .enrollCourse2{
     background-color: #D05B49;
     color: white;
+    padding: 15px 50px;
     border-radius: 5px;
 }
 .enrollCourse3{
@@ -431,6 +432,22 @@ font-weight: 700;
     z-index: 2;
 }
 
+footer{ 
+    /* background-color: #f3f3f3; */
+    margin-left: 14px;
+    bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 110vw;
+    /* height: 70px; */
+}
+
+@media screen and (min-width:305px) and (max-width:430px){
+    .navbarColor span{
+        font-size:10px ;
+    }
+}
+
 @media screen and (min-width:305px) and (max-width:380px) {
     .sectionBackground{
         margin-left: 18px;
@@ -439,6 +456,18 @@ font-weight: 700;
     .reviewCards{
         width: 92% !important;
     }
+    .enrollCourse{
+        padding: 0px;
+        margin-left: 10px;
+    } 
+    .enrollCourse2{
+            background-color: #D05B49;
+            color: white;
+            padding: 10px 65px;
+            border-radius: 5px;
+        
+    }
+    
     
 }
 
@@ -551,6 +580,8 @@ font-weight: 700;
     margin-right: 11px;
     margin-left: 0px;
     }
+
+    
 }
 
 
@@ -579,8 +610,8 @@ font-weight: 700;
         margin-left: 27px;
     }
     .signBackGroundColor{
-        width: 100vw;
-        margin-right: 40px;
+        width: 104vw;
+        /* margin-right: 40px; */
         padding: 0px !important;
     }
     .priceCardParrent{
