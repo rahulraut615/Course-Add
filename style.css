@@ -319,6 +319,7 @@ ul li i{
     margin-top: 50px;
 }
 
+
 .planPrice{
     color: #000;
     font-family: montserrat, Sans-serif;
@@ -352,7 +353,7 @@ ul li i{
 .sign img{
     height: 52px;
 }
-.copy{
+.copyright{
 font-size: 14px;
 font-weight: 700;
 }
