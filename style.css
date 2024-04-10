@@ -302,6 +302,8 @@ ul li i{
 .plan{
     border: 3px solid #D05B49;
 }
+
+/* StandardPlan class User to for font family */
 .standardPlan{
     color: #000;
     font-family: libre baskerville, Sans-serif;
@@ -636,6 +638,13 @@ footer{
     .aboutCourseInvarialy{
         margin-top: 40px;
         margin-bottom: 40px;
+    }
+   
+}
+
+@media screen and (min-width: 478px) and (max-width: 578px) {
+    .standardPlanBox{
+        width: 390vw;
     }
    
 }
