@@ -1,0 +1,611 @@
+html{
+    font-size: 62.5%;  
+     /* declered 1rem = 10px,  for resposive font just you can change the "html{ font-size: required%; } "  */
+}
+
+.body{
+    margin-top: 0px;
+    padding-top: 0px ;
+    
+}
+
+.bonus{
+    position: relative;
+    top: 65px;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.customNAV nav{
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 2;
+    /* overflow-y: hidden; */
+}
+
+.navbarColor{
+    height: 6.3rem;
+    background-color: #D05B49;
+}
+.navbarEnroll{
+        padding: 10px 20px;
+        background-color: white;
+        font-weight: 700;
+        border-radius: 30px;
+        border: 0px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+}
+.navbarColor span{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: white;
+}
+.navbarColor a button{
+  padding: 1.2rem, 2.5rem;
+  font-size: 1.4rem;
+}   
+
+/* Headline Like Pick Your Plan, Meet Your Instructor */
+.headLines{
+        color: #d05b49;
+        font-family: work sans, Sans-serif;
+        font-size: 33px;
+        font-weight: 800;
+        text-transform: uppercase;
+}
+.headLines span{
+    
+        font-style: normal;
+        background: linear-gradient(0deg, #f9fdbe 45%, transparent 45%);
+        position: relative;
+        font-family: inherit;
+        display: inline-block;
+        padding: 3px 2px 2px;
+    
+}
+
+.text-design{
+    
+        color: #000;
+        font-family: work sans, Sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5em;
+    
+}
+
+.block h2{
+    
+        color: #000;
+        font-family: work sans, Sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+    
+}
+
+
+.courseFeature span,i{
+    
+        font-family: oxygen, Sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+         background-color: #faebd7;
+}
+.courseFeature{
+    border-radius: 15px;
+}
+/* Enroll Buttons Style  */
+
+.enrollCourse{
+    background-color: #D05B49;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+.enrollCourse2{
+    background-color: #D05B49;
+    color: white;
+    border-radius: 5px;
+}
+.enrollCourse3{
+    background-color: #fff;
+    color: #D05B49;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+
+.iconColor{
+    color: #D05B49;
+}
+.aboutCourseInfo p{
+    color: #000;
+    font-family: work sans, Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+ul li {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    margin-top: 10px;
+    font-family: work sans, Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+ul li i{
+    color: #D05B49;
+}
+
+ /* All About The Course Style */
+.aboutCourseUnderStanding p {    
+    color: #000;
+    font-family: work sans, Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+.aboutCourseAsScience p{        
+    color: #d05b49;
+    font-family: work sans, Sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.aboutCourseInvarialy p{  
+    color: #232323;
+    font-family: work sans, Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.sectionBackground{
+    background-color: #D05B49;
+}
+
+.headLineDesign{
+    font-style: normal;
+    background: linear-gradient(0deg, #0005 45%, transparent 45%);
+    position: relative;
+    font-family: inherit;
+    display: inline-block;
+    padding: 3px 2px 2px;
+    color: white;
+    font-size: 33px;
+}
+.inTheCourseBackground{
+    background-color: white;
+}
+.inTheCourseLabel {
+    font-family: libre baskerville, Sans-serif;
+    font-size: 21px;
+    font-weight: 600;   
+}
+
+.content{
+    border-width: 0;
+    background-color: #fff;
+    color: #000;
+    font-family: work sans, Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+.displayMargin{
+    display: block;
+    margin-top: 13px;
+}
+.cadrheadwid{
+    width: 85%;
+}
+.cadrhead{
+    background-color: #D05B49;
+    width: 50%;
+    height: 70px;
+    border-radius: 5px;
+}
+.cadrhead span{
+    color: #fff;
+    font-family: montserrat, Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.courseCurriculam{
+    background-color: #f2f2f2;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8e8e8e;
+    border-radius: 10px 10px 10px 10px;
+}
+.fromVideo{
+    width: 100%; /* or any specific width */
+    height: 100%; /* or any specific height */
+    position: relative; /* ensure position context */
+    overflow: hidden; /* prevent video overflow */
+}
+.fromVideo video{
+    width: 100%; /* ensure video fills parent width */
+    height: auto; /* maintain aspect ratio */
+    display: block; /* ensure proper spacing */
+}
+
+.videoContainer{
+    /* width: 100%; h */
+    height: 100%; /* or any specific height */
+    position: relative; /* ensure position context */
+    overflow: hidden; /* prevent video overflow */
+}
+.videoContainer video{
+    width: 100%; /* ensure video fills parent width */
+    height: auto; /* maintain aspect ratio */
+    display: inline-block ; /* ensure proper spacing */
+}
+
+.banner{
+    background-color: #D05B49;
+}
+.banner div div div p{
+    color: white;
+    font-size: 17px;
+}
+.banner div img {
+    width: 200px;
+    border-radius: 50%;
+}
+.bannername{
+    font-style: normal;
+    background: linear-gradient(0deg, #0005 45%, transparent 45%);
+    position: relative;
+    font-family: inherit;
+    display: inline-block;
+    padding: 3px 2px 2px;
+    color: white;
+    font-size: 37px;
+}
+
+.reviewCards{
+    /* display: flex;  */
+    /* justify-content: center; */
+    /* height: 0px; */
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    /* padding-left: 100px;
+    padding-top: 15px ;
+    padding-bottom:2000px ;
+    padding-right: 100px; */
+}
+.reviewCardImages img{
+        width: 58px;
+        border-radius: 50%;
+        border: 2px solid #D05B49;
+
+}
+.reviewCards div div h2{
+    font-size: 30px;
+   
+}
+
+.plan{
+    border: 3px solid #D05B49;
+}
+.standardPlan{
+    color: #000;
+    font-family: libre baskerville, Sans-serif;
+    font-size: 23px;
+}
+.stdPlanDescription{
+    color: #000;
+    font-family: montserrat, Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.descriptionMargin{  
+    margin-top: 50px;
+}
+
+.planPrice{
+    color: #000;
+    font-family: montserrat, Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.planlist li{
+        font-size: 16px;
+        font-family: montserrat, Sans-serif;
+        font-weight: 700;
+}
+
+.noQuestionParagraph p {
+    text-align: left;
+    color: #fff;
+    font-family: montserrat, Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.emailinYellow{
+    color: #ffff00;
+}
+.emailinBlue{
+    color: #2ea3f2;
+}
+
+.faqListShadow{
+    box-shadow: 0 -3px 37px -16px rgba(0,0,0,.28);
+}
+
+.sign img{
+    height: 52px;
+}
+.copy{
+font-size: 14px;
+font-weight: 700;
+}
+.signBackGroundColor{
+    background-color: #f3f3f3;
+    padding: 0px !important;
+    width: 100vw;
+}
+/* dropdown animation */
+.planBackground{
+    background-color: #f8ebeb;;
+}
+
+#accordian li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #c20000;
+    
+}
+#accordian label + input[type="radio"]{
+    display: none;
+}
+#accordian .content{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.1s;
+}
+#accordian label + input[type="radio"]:checked + .content {
+    max-height: 400px;
+  
+}
+
+/* Input Animation */
+.hidden {
+    opacity: 0;
+}
+.console-container {
+    font-family: Khula;
+    font-size: 4em;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    /* display: block; */
+    /* position: absolute; */
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* margin: auto; */
+}
+
+.communityIcon{
+    display: inline-block;
+
+}
+.communityIcon i{
+    font-size: 35px;
+    background-color: white;
+    border-radius: 50%;
+    color: #D05B49;
+
+}
+.communityCards{
+    margin-left: 44px;
+}
+
+.communityCards h3{
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+}
+.communityCards p{
+    color: white;
+    font-size: 15px;
+}
+.signature{
+    position: fixed;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 768px) {
+    .communityCards h3 , p{
+        text-align: center;
+    }
+    .headLineDesign{
+        font-size: 22px;
+    }
+
+    .enrollCourse{
+        background-color: #D05B49;
+        color: white;
+        padding: 15px 145px !important;
+        border-radius: 5px;
+    }
+    .changedivDirection{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+   .cpl.mt-4{
+    margin-top: 0px;
+   }
+   .cpl.col-md-6.col-sm-6.col-6.d-flex.justify-content-center m-5 p-5{
+    margin-top: 0px;
+    padding-top: 10px;
+   }
+   .reviewCards{
+    margin-top: 25px;
+
+   }
+   .reviewCardImages img{
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #D05B49;
+
+}
+.noQuestionParagraph p{
+    margin-left: 20px;
+}
+   
+
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .headLineDesign{
+        font-size: 22px;
+    }
+    .headLines{
+        margin-left:10px ;
+    }
+    .signBackGroundColor{
+        margin-right: -15px;
+        padding: 0px !important;
+        width: 100vw;
+    }
+   
+  }
+
+  @media only screen and (max-width: 575.98px) {
+    .image-container{
+        margin: 0 !important; /* Reduce margin */
+        padding: 25px !important; /* Reduce padding */
+    }
+    .scrs{
+        margin: 0 !important;
+        margin: 0px;
+    }
+    .noQuestionParagraph p{
+        margin-left: 20px;
+    }
+
+    .customLeftMargin{
+        margin-left: 7px;
+    }
+    .customLeftMargin2{
+        margin-left: 9px;
+    }
+    .customLeftMargin3{
+        margin-left: 11px;
+    }
+    .customLeftMargin4{
+        margin-left: 13px;
+    }
+    .customLeftMargin5{
+        margin-left: 15px;
+    }
+   
+
+    .lpadding{
+        padding-left: 7px;
+    }
+    .lpadding2{
+        padding-left: 9px;
+    }
+    .lpadding3{
+        padding-left: 11px;
+    }
+    .lpadding4{
+        padding-left: 13px;
+    }
+    .lpaddin5{
+        padding-left: 15px;
+    }
+    .reviewCards{
+        width: 380px;
+    margin-right: 11px;
+    margin-left: 0px;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .sectionBackground{
+        margin-left: 18px;
+    }
+
+    .reviewCards{
+        width: 92% !important;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .aboutCourseInvarialy{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .sectionBackground{
+        margin-left: 27px;
+    }
+    .headLines{
+        margin-left: 27px;
+    }
+    .signBackGroundColor{
+        width: 100vw;
+        margin-right: 40px;
+        padding: 0px !important;
+    }
+    .priceCardParrent{
+        display: flex;
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+    .priceCard{
+        width: 90% !important;
+    }
+    .reviewCards{
+        width: 30% ;
+        margin-top: 30px;;
+    }
+    .changedivDirection{
+        flex-direction: row;
+    }
+  }
+
+@media screen and (min-width: 768px) and (max-width: 1167px) {
+    .aboutCourseInvarialy{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+   
+}
+ 
+/* Below Media Query Prevents Pixel Glitches In Horizontal At Max screen Sixe 1324px */
+@media screen and (min-width: 1168px) and (max-width: 1324px) {
+        html,body{
+            width:100%;
+            height:100%;
+            margin: 0%;
+            padding: 0%;
+            overflow-x: hidden;
+            }
+       
+}
