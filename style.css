@@ -498,12 +498,7 @@ footer{
         font-size: 22px;
     }
 
-    .enrollCourse{
-        background-color: #D05B49;
-        color: white;
-        padding: 15px 145px !important;
-        border-radius: 5px;
-    }
+    
     .changedivDirection{
         display: flex;
         justify-content: center;
@@ -615,6 +610,12 @@ footer{
 
     .reviewCards{
         width: 92% !important;
+    }
+    .enrollCourse{
+        background-color: #D05B49;
+        color: white;
+        padding: 15px 145px !important;
+        border-radius: 5px;
     }
     
 }
